@@ -36,6 +36,7 @@ img {
 .main-navigation {
   background: var(--WHITE, #fff);
   align-items: center; 
+  display: flex;
 }
 
 .logo {
@@ -79,6 +80,7 @@ img {
 }
 .main-contact-info {
     display: flex;
+    gap: 40px;
 }
 
 .link-contact {
