@@ -4,6 +4,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
 
 .link{
     text-decoration: none;
@@ -15,10 +18,11 @@ body{
 .main-navigation{
     background: var(--WHITE, #FFF);
 }
-.main-header{
+
+
+.m-nav{
     display: flex;
 }
-
 .logo{
 
    color: var(--IRIS, #4D5AE5);
