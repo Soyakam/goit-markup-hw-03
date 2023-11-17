@@ -7,7 +7,6 @@ body{
 img{
     display: block;
 }
-
 .link{
     text-decoration: none;
 }
@@ -15,12 +14,13 @@ img{
     list-style-type: none;
 
 }
+.m-nav{
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    
+}
 .main-navigation{
     background: var(--WHITE, #FFF);
-}
-
-
-.m-nav{
     display: flex;
 }
 .logo{
@@ -32,7 +32,7 @@ img{
    line-height: 1.17; /* 116.667% */
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   
+   display: inline-flex;
     
 
 }
@@ -45,11 +45,6 @@ line-height: 1.16; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-    }
-    .menu{
-        display: flex;
-        margin-left: 347px;
-        margin-top: 2px;
     }
     .menu-link{
         color: var(--NAVY-BLUE, #2E2F42);
