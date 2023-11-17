@@ -134,6 +134,13 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+.colums{
+    padding: 120px 0 
+}
+.list{
+    display: flex;
+}
+
 .title-colum {
   color: #2e2f42;
 
