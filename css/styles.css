@@ -14,28 +14,27 @@ img {
   display: block;
 }
 .main-header {
-    border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 .container {
-    display: flex; 
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.menu{
-    display: flex;
-    align-items: center; 
-    gap: 40px;
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-.menu-link{
-    margin-right: 76px;
-    display: flex;
-    padding: 24px 0;
+.menu-link {
+  margin-right: 76px;
+  display: flex;
+  padding: 24px 0;
 }
 .main-navigation {
   background: var(--WHITE, #fff);
-  align-items: center; 
+  align-items: center;
   display: flex;
 }
 
@@ -49,7 +48,7 @@ img {
   text-transform: uppercase;
   display: flex;
   margin-left: 347px;
-  margin-right: 76px
+  margin-right: 76px;
 }
 .other-name {
   color: #2e2f42;
@@ -79,8 +78,8 @@ img {
   font-style: normal;
 }
 .main-contact-info {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .link-contact {
@@ -128,7 +127,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
   cursor: pointer;
 }
 .button:hover,
