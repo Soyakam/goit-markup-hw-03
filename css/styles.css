@@ -17,14 +17,15 @@ img {
   border-bottom: 1px solid #e7e9fc;
   
 }
-.container {
+
  
 
-}
+
 .page-header-cont{
     justify-content: space-between;
-    width: 1440px;
+    
     display: flex;
+    width: 1158px; 
   
     margin: 0 auto;
     padding: 0 15px;
@@ -106,9 +107,7 @@ img {
   padding: 188px 0px;
 
 }
-.first-section{
-   
-}
+
 .title {
   color: #fff;
   /* Header 1 */
