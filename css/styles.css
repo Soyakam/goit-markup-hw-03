@@ -16,6 +16,7 @@ img {
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
+
 .page-header-cont {
   width: 1240px;
   display: flex;
@@ -23,10 +24,9 @@ img {
 }
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin: 0 auto;
+  padding: 0 15px;
+ 
 }
 
 .main-navigation {
@@ -60,8 +60,9 @@ img {
 }
 .menu {
   display: flex;
-  align-items: center;
   gap: 40px;
+  align-items: center;
+  
 }
 
 .menu-item {
