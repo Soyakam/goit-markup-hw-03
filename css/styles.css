@@ -175,10 +175,9 @@ margin-right: auto;
 .list{
     display: flex;
     gap: 24px; 
-}
-.colum-one-to-four{
     width: calc((100% - 72px) / 4); 
 }
+
 
 .title-colum{
   color: #2e2f42;
