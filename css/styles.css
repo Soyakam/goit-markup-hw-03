@@ -16,21 +16,15 @@ img {
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
-
 .page-header-cont {
   width: 1240px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .container {
   width: 1158px;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-navigation {
@@ -62,6 +56,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 
 .menu-item {
   font-family: "Raleway", sans-serif;
@@ -86,6 +85,7 @@ img {
 .main-contact-info {
   display: flex;
   gap: 40px;
+ 
 }
 
 .link-contact {
@@ -259,9 +259,9 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.our-product{
+.our-product {
   padding-top: 120px;
-  padding-bottom: 120px; 
+  padding-bottom: 120px;
 }
 .our-portfolio {
   color: #2e2f42;
@@ -277,19 +277,19 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.list{
-    display: flex;
-    flex-wrap: wrap; 
-    column-gap: 24px;
-    row-gap: 48px; 
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.all-products{
-    width: calc((100% - 48px) / 3);
+.all-products {
+  width: calc((100% - 48px) / 3);
 }
-.first-part{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none; 
+.first-part {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .photo-product {
   background: #fff;
