@@ -176,7 +176,7 @@ margin-right: auto;
     display: flex;
     gap: 24px; 
 }
-.colum-one{
+.colum-one-to-four{
     width: calc((100% - 72px) / 4); 
 }
 
