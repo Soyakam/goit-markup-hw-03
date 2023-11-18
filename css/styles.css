@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
+
   color: #434455;
   background-color: #ffffff;
-
 }
 h1,
 h2,
@@ -22,19 +22,11 @@ ol {
   padding-left: 0;
 }
 
-
-
 button {
   cursor: pointer;
 }
 
-.list {
-  list-style-type: none;
-}
 
-.link {
-  text-decoration: none;
-}
 
 .link {
   text-decoration: none;
@@ -47,11 +39,9 @@ img {
 }
 .main-header {
   border-bottom: 1px solid #e7e9fc;
-  
 }
 
 .page-header-cont {
-
   display: flex;
   justify-content: space-between;
 }
@@ -59,16 +49,18 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
- 
 }
 
 .main-navigation {
-  background: var(--WHITE, #fff);
   align-items: center;
   display: flex;
-
-  margin: 0 auto;
-  padding: 0 15px;
+  flex-direction: row;
+ 
+ 
+  height: 72px;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 40px;
 }
 .logo {
   color: var(--IRIS, #4d5ae5);
@@ -78,10 +70,8 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  margin-left: 0px;
+  padding: 25.5px 0;
   margin-right: 76px;
- 
 }
 .other-name {
   color: #2e2f42;
@@ -95,8 +85,7 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  align-items: center;
-  
+  padding: 24px 0;
 }
 
 .menu-item {
@@ -118,13 +107,10 @@ img {
 .contact-info {
   font-style: normal;
   padding: 24px 0;
- 
 }
 .main-contact-info {
   display: flex;
   gap: 40px;
- 
-  
 }
 
 .link-contact {
@@ -316,7 +302,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.list {
+.listed {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
