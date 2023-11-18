@@ -2,7 +2,25 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 
 .link {
   text-decoration: none;
@@ -15,10 +33,11 @@ img {
 }
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  
 }
 
 .page-header-cont {
-  width: 1240px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -48,6 +67,7 @@ img {
   display: flex;
   margin-left: 0px;
   margin-right: 76px;
+ 
 }
 .other-name {
   color: #2e2f42;
@@ -84,10 +104,13 @@ img {
 .contact-info {
   font-style: normal;
   padding: 24px 0;
+ 
 }
 .main-contact-info {
   display: flex;
   gap: 40px;
+ 
+  
 }
 
 .link-contact {
