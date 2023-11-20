@@ -45,6 +45,7 @@ img {
 .page-header-cont {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .container {
   width: 1158px;
@@ -74,6 +75,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  
   
   
 }
@@ -108,7 +110,7 @@ font-weight: 500;
 }
 .contact-info {
   font-style: normal;
-  display: flex;
+
 }
 .main-contact-info {
   display: flex;
